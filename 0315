@@ -1,0 +1,239 @@
+inho@DESKTOP-U1E50A6:/mnt/c/Users/forav$ ~
+-bash: /home/inho: Is a directory
+inho@DESKTOP-U1E50A6:/mnt/c/Users/forav$ cd~
+
+Command 'cd~' not found, did you mean:
+
+  command 'cde' from deb cde (0.1+git9-g551e54d-1.1build1)
+  command 'cdb' from deb tinycdb (0.78build1)
+  command 'cdw' from deb cdw (0.8.1-1build4)
+  command 'cdo' from deb cdo (1.9.9~rc1-1)
+  command 'cd5' from deb cd5 (0.1-4)
+  command 'cdp' from deb irpas (0.10-7)
+  command 'cdi' from deb cdo (1.9.9~rc1-1)
+
+Try: sudo apt install <deb name>
+
+inho@DESKTOP-U1E50A6:/mnt/c/Users/forav$ cd ~
+inho@DESKTOP-U1E50A6:~$ date
+Mon Mar 15 17:26:21 KST 2021
+inho@DESKTOP-U1E50A6:~$ pwd
+/home/inho
+inho@DESKTOP-U1E50A6:~$ ls
+inho@DESKTOP-U1E50A6:~$ script 0315
+Script started, file is 0315
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+inho@DESKTOP-U1E50A6:~$ ls
+0315
+inho@DESKTOP-U1E50A6:~$ hostname
+DESKTOP-U1E50A6
+inho@DESKTOP-U1E50A6:~$ uname
+Linux
+inho@DESKTOP-U1E50A6:~$ exit
+exit
+Script done, file is 0315
+inho@DESKTOP-U1E50A6:~$ script 0315
+Script started, file is 0315
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+inho@DESKTOP-U1E50A6:~$ date
+Mon Mar 15 17:27:41 KST 2021
+inho@DESKTOP-U1E50A6:~$ exit
+exit
+Script done, file is 0315
+inho@DESKTOP-U1E50A6:~$ ls
+0315
+inho@DESKTOP-U1E50A6:~$ cat 0315
+Script started on 2021-03-15 17:27:38+09:00 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="6"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+inho@DESKTOP-U1E50A6:~$ date
+Mon Mar 15 17:27:41 KST 2021
+inho@DESKTOP-U1E50A6:~$ exit
+exit
+
+Script done on 2021-03-15 17:27:45+09:00 [COMMAND_EXIT_CODE="0"]
+inho@DESKTOP-U1E50A6:~$ script 0315
+Script started, file is 0315
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+inho@DESKTOP-U1E50A6:~$ date
+Mon Mar 15 17:29:37 KST 2021
+inho@DESKTOP-U1E50A6:~$ pwd
+/home/inho
+inho@DESKTOP-U1E50A6:~$ ls
+0315
+inho@DESKTOP-U1E50A6:~$ hostname
+DESKTOP-U1E50A6
+inho@DESKTOP-U1E50A6:~$ uname
+Linux
+inho@DESKTOP-U1E50A6:~$ exit
+exit
+Script done, file is 0315
+inho@DESKTOP-U1E50A6:~$ ls
+0315
+inho@DESKTOP-U1E50A6:~$ cat 0315
+Script started on 2021-03-15 17:29:36+09:00 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="6"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+inho@DESKTOP-U1E50A6:~$ date
+Mon Mar 15 17:29:37 KST 2021
+inho@DESKTOP-U1E50A6:~$ pwd
+/home/inho
+inho@DESKTOP-U1E50A6:~$ ls
+0315
+inho@DESKTOP-U1E50A6:~$ hostname
+DESKTOP-U1E50A6
+inho@DESKTOP-U1E50A6:~$ uname
+Linux
+inho@DESKTOP-U1E50A6:~$ exit
+exit
+
+Script done on 2021-03-15 17:29:47+09:00 [COMMAND_EXIT_CODE="0"]
+inho@DESKTOP-U1E50A6:~$ ls -l
+total 4
+-rw-r--r-- 1 inho inho 866 Mar 15 17:29 0315
+inho@DESKTOP-U1E50A6:~$ ll
+total 12
+drwxr-xr-x 1 inho inho 4096 Mar 15 17:26 ./
+drwxr-xr-x 1 root root 4096 Mar 12 01:11 ../
+-rw------- 1 inho inho  123 Mar 15 17:29 .bash_history
+-rw-r--r-- 1 inho inho  220 Mar 12 01:11 .bash_logout
+-rw-r--r-- 1 inho inho 3771 Mar 12 01:11 .bashrc
+drwxr-xr-x 1 inho inho 4096 Mar 12 01:11 .landscape/
+-rw-r--r-- 1 inho inho    0 Mar 15 16:36 .motd_shown
+-rw-r--r-- 1 inho inho  807 Mar 12 01:11 .profile
+-rw-r--r-- 1 inho inho  866 Mar 15 17:29 0315
+inho@DESKTOP-U1E50A6:~$ cd ..
+inho@DESKTOP-U1E50A6:/home$ cd ~
+inho@DESKTOP-U1E50A6:~$ pwd
+/home/inho
+inho@DESKTOP-U1E50A6:~$ mkdir choi
+inho@DESKTOP-U1E50A6:~$ mkdir chang
+inho@DESKTOP-U1E50A6:~$ ls
+0315  chang  choi
+inho@DESKTOP-U1E50A6:~$ cd chang
+inho@DESKTOP-U1E50A6:~/chang$ mkdir cs101
+inho@DESKTOP-U1E50A6:~/chang$ ls
+cs101
+inho@DESKTOP-U1E50A6:~/chang$ rmdir cs101
+inho@DESKTOP-U1E50A6:~/chang$ ls
+inho@DESKTOP-U1E50A6:~/chang$ cd ..
+inho@DESKTOP-U1E50A6:~$ cd choi
+inho@DESKTOP-U1E50A6:~/choi$ /ls
+-bash: /ls: No such file or directory
+inho@DESKTOP-U1E50A6:~/choi$ ls
+inho@DESKTOP-U1E50A6:~/choi$ mkdir cs101
+inho@DESKTOP-U1E50A6:~/choi$ ls
+cs101
+inho@DESKTOP-U1E50A6:~/choi$ cd ..
+inho@DESKTOP-U1E50A6:~$ cd choi
+inho@DESKTOP-U1E50A6:~/choi$ mkdir /home/inho/chang/doc
+inho@DESKTOP-U1E50A6:~/choi$ mkdir ../chang/test
+inho@DESKTOP-U1E50A6:~/choi$ cd ..
+inho@DESKTOP-U1E50A6:~$ ls
+0315  chang  choi
+inho@DESKTOP-U1E50A6:~$ ls chang
+doc  test
+inho@DESKTOP-U1E50A6:~$ cd chang/test
+inho@DESKTOP-U1E50A6:~/chang/test$ cat > cs1.txt
+Sampe example text 2017748100
+^D
+
+q
+
+
+<
+^d
+^D
+>^D
+inho@DESKTOP-U1E50A6:~/chang/test$ cat > cs1.txt
+                     how iinho@DESKTOP-U1E50A6:~/chang/test$ ls
+cs1.txt
+inho@DESKTOP-U1E50A6:~/chang/test$ ls -l
+total 0
+-rw-r--r-- 1 inho inho 104 Mar 15 18:03 cs1.txt
+inho@DESKTOP-U1E50A6:~/chang/test$ cat cs1.txt
+Sampe example text 2017748100
+^D
+
+q
+
+
+<
+^d
+^D
+>^D
+inho@DESKTOP-U1E50A6:~/chang/test$ cat > cs1.txt
+how iinho@DESKTOP-U1E50A6:~/chang/test$ more cs1.txt
+Sampe example text 2017748100
+^D
+
+q
+
+
+<
+^d
+^D
+>^D
+inho@DESKTOP-U1E50A6:~/chang/test$ cat > cs1.txt
+how i
+inho@DESKTOP-U1E50A6:~/chang/test$ cat > cs1.txt
+Sample Linux example catinho@DESKTOP-U1E50A6:~/chang/test$ ls
+cs1.txt
+inho@DESKTOP-U1E50A6:~/chang/test$ cat cs1.txt
+Sample Linux example catinho@DESKTOP-U1E50A6:~/chang/test$ cat > cs1.txt
+Sample Example 2021.03.15
+inho@DESKTOP-U1E50A6:~/chang/test$ cat >cs2.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+inho@DESKTOP-U1E50A6:~/chang/test$ wc cs2.txt
+20 20 51 cs2.txt
+inho@DESKTOP-U1E50A6:~/chang/test$ wc cs1.txt
+ 1  3 26 cs1.txt
+inho@DESKTOP-U1E50A6:~/chang/test$ cd~
+
+Command 'cd~' not found, did you mean:
+
+  command 'cde' from deb cde (0.1+git9-g551e54d-1.1build1)
+  command 'cd5' from deb cd5 (0.1-4)
+  command 'cdb' from deb tinycdb (0.78build1)
+  command 'cdo' from deb cdo (1.9.9~rc1-1)
+  command 'cdp' from deb irpas (0.10-7)
+  command 'cdi' from deb cdo (1.9.9~rc1-1)
+  command 'cdw' from deb cdw (0.8.1-1build4)
+
+Try: sudo apt install <deb name>
+
+inho@DESKTOP-U1E50A6:~/chang/test$ cd ~
+inho@DESKTOP-U1E50A6:~$ ls
+0315  chang  choi
+inho@DESKTOP-U1E50A6:~$ cp 0315 choi/cs101/
+inho@DESKTOP-U1E50A6:~$ ls choi/cs101/
+0315
+inho@DESKTOP-U1E50A6:~$
+
