@@ -2,9 +2,9 @@
 #include<string.h>
 #define MAXLINE 100
 void copy(char from[], char to[]);
-char line[MAXLINE]; // ÀÔ·Â ÁÙ
-char longest[MAXLINE]; // °¡Àå ±ä ÁÙ
-/*ÀÔ·Â ÁÙ °¡¿îµ¥ °¡Àå ±ä ÁÙ ÇÁ¸°Æ® */
+char line[MAXLINE]; // ì…ë ¥ ì¤„
+char longest[MAXLINE]; // ê°€ì¥ ê¸´ ì¤„
+/*ì…ë ¥ ì¤„ ê°€ìš´ë° ê°€ì¥ ê¸´ ì¤„ í”„ë¦°íŠ¸ */
 int main()
 {
    int len;
@@ -17,12 +17,12 @@ int main()
          copy(line, longest);
       }
    }
-   if (max > 0) // ÀÔ·Â ÁÙÀÌ ÀÖ¾ú´Ù¸é
+   if (max > 0) // ì…ë ¥ ì¤„ì´ ìˆì—ˆë‹¤ë©´
       printf("%s", longest);
 
    return 0;
 }
-/* copy: fromÀ» to¿¡ º¹»ç; to°¡ ÃæºĞÈ÷ Å©´Ù°í °¡Á¤*/
+/* copy: fromì„ toì— ë³µì‚¬; toê°€ ì¶©ë¶„íˆ í¬ë‹¤ê³  ê°€ì •*/
 void copy(char from[], char to[])
 {
    int i;
